@@ -39,6 +39,7 @@ for i in range(0,10):
       print(i ,end=' ')
 '''
 # for loop with else
+'''
 import math
 num = int(input('Enter the number to check for prime '))
 if num <= 1 :
@@ -57,3 +58,13 @@ for j in 'Delhi'  :
 print()
 for j in [1,2,3,4,5] :
    print(j,end=' ')
+'''
+for index , j in enumerate([2,3,4,5,6]) :
+   if index == 2 :
+      print(j)
+for index , i in enumerate([3,4,5,6]) :
+   if i == 4 :
+      print(index)
+
+my_list = [2, 3, 4, 5, 6,5,5]
+print(my_list.index(5))

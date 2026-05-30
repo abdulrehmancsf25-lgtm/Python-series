@@ -6,7 +6,7 @@ e = size -1
 mid = s + (e-s)//2 
 while s <= e :
   if arr[mid] == target :
-      print('target found ')
+      print('target found at index : ' , mid )
       break 
   elif arr[mid] > target :
       e = mid -1 
