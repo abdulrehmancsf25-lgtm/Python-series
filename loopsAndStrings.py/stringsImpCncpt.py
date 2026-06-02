@@ -1,3 +1,8 @@
+              # PYTHON STRINGS ARE IMMUTABLE MEANS WE CANN'T CHANGE IT
+s = 'hello'
+# s[0] = 'H' ERROR
+# print(s) throughs error
+# we can make new string from older by changing it with function but original string is immutable
 """
 import sys
 x = 'a'
