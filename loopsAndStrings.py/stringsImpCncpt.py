@@ -19,9 +19,11 @@ print(name[0]) # print a
 # NEGATIVE INDEXING(-1 TO SO ON (LEFT <--- RIGHT))
 print(name[-1]) # print l
 
-# SLICING (MORE THAN ONE CHARCATERS )
+
 name  = 'hello world'
-print(name[0:5]) # index 0 to 4 will print out 
+
+
+
 # .find function returns first occurence index of a char in string else -1
 print('index of i ',name.find('i'))
 print('index of space ',name.find(' '))
@@ -29,10 +31,10 @@ print('index of l ' ,name.find('l'))
 # .index also returns index 
 # if char not found not give -1 throughs value Error
 print(name.index('h'))
-'''
+
 for i in name:
     if i == ' ':
-        print()'''
+        print()
 # to print all indices of a cahracter 
 # i is for iterating and value stores that value in string 
 for i , value in enumerate(name):
