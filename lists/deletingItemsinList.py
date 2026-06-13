@@ -30,5 +30,3 @@ arr = [1,2,3]
 arr.clear()
 print(arr)
 '''
-str1 = 'hello'
-print(str1.count('e'))

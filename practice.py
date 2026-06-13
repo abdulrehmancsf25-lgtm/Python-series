@@ -30,3 +30,4 @@ print(*x,sep='-')
 # extracting last element
 x.pop()
 print(*x,sep='-')
+

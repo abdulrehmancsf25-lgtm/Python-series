@@ -28,6 +28,7 @@ array[1:1]= [101,102]
 print(array)
 array[1:1] = [23]
 print(array)
-
+ # like void functions in C++ functions in python that changes mutable dataTypes like lists
+ # return None (means nothing)
 arr = [1,2,3]
 print(arr.extend([4,5])) # output None because it returns None which shows it modifies original array
