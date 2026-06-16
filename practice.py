@@ -31,3 +31,8 @@ print(*x,sep='-')
 x.pop()
 print(*x,sep='-')
 
+a,b,c = map(float,input().split())
+print(a,b,c)
+
+myList = map(str.title,['abdul','rehman','arshad'])
+print(*(list(myList)))
