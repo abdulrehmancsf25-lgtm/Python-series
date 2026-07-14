@@ -39,7 +39,7 @@ def print_list(lst):
     lst[i] += 1 
   return lst 
 arr = [1,2,3,4,5]
-new = print_list(arr)
 
+print_list(arr)
+# After function call arr is changed 
 print(arr)
-print(new)
